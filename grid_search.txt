@@ -1,0 +1,19 @@
+\begin{longtable}{llr}
+\toprule
+              Model &                                                              Parameters &  Accuracy \\
+\midrule
+\endhead
+\midrule
+\multicolumn{3}{r}{{Continued on next page}} \\
+\midrule
+\endfoot
+
+\bottomrule
+\endlastfoot
+                RFC &                           \{'criterion': 'entropy', 'n\_estimators': 100\} &    0.9460 \\
+                GBC &                                   \{'max\_depth': 5, 'n\_estimators': 100\} &    0.9357 \\
+                SVC &                                           \{'C': 11, 'kernel': 'linear'\} &    0.9214 \\
+ logisticRegression &  \{'multi\_class': 'multinomial', 'penalty': 'l2', 'solver': 'newton-cg'\} &    0.8825 \\
+                KNC &                \{'leaf\_size': 5, 'n\_neighbors': 6, 'weights': 'uniform'\} &    0.8183 \\
+                ADB &                                                   \{'n\_estimators': 100\} &    0.4230 \\
+\end{longtable}
